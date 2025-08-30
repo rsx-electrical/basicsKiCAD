@@ -27,7 +27,7 @@ So now let's get onto using KiCad. Today you are tasked with creating a PCB that
 
 <div align="center">
      <img src="images/Onboarding3dModel.png" width="300">
-     p><i>Figure 1: Final 3D model of the PCB/i></p>
+     <p><i>Figure 1: Final 3D model of the PCB/i></p>
 </div>
 
 
