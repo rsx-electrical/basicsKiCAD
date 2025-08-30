@@ -5,6 +5,12 @@ Welcome all. I'm going to make a couple of assumption which is you have no idea 
 
 Let's start with the basics...
 
+> [!IMPORTANT]
+> In order to proceed with this tutorial you must 
+> 1. Download KiCad onto your local computer (download the most updated)
+> 2. Clone this repository onto your local computer: [rsx_standard_library](https://github.com/rsx-electrical/rsx_standard_library)
+
+
 ### What is KiCad?
 It is a software for developing printed circuit boards (PCBs). If those words went over your head let's start with an analogy--designing a PCB is analogous to playing with legos. 
 
@@ -16,8 +22,18 @@ There are three important sections in PCB that will be highlighted through buili
 Of couse in this tutorial you won't actually get to this step 3, as KiCad only allows for steps 1 and 2. 
 
 ### A Simple Design
-So now let's get onto using KiCad. Today you are tasked with creating a PCB that allows for an LED to turn on. 
+So now let's get onto using KiCad. Today you are tasked with creating a PCB that allows for an LED to turn on. Fun right!
 ![Onbarding 3D Modeul](images/Onboarding3dModel.png)
+
+If we look at the photo, you'll the following labels D1, R1, and J1--these are footprint references. 
+- D1: LED
+- R1: Resistor
+- J1: Screw terminal. (There is also a 1 next to the screw terminal. This is a footrprint text used for distinguishing the two terminals) 
+
+ 
+
+
+
 
 
 
