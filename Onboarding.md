@@ -52,7 +52,7 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
     - We are getting to the section where we can choose the legos to build our house. How exciting!!!
 
     <div align="center">
-    <img src="images/AddSymbol.png" width="800">
+    <img src="images/AddSymbol.png" width="300">
     <p><i>Figure 3: Adding a new schematic symbol</i></p>
     </div>
 
@@ -67,7 +67,7 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
     - There are three symbols you need to add: LED, resistor, and screw terminal
         - LED: find the symbol library **rsx_LED**, and doulbe click on the symbol name **LED_B**
 
-        > [!TIP] 
+        > [!IMPORTANT] 
         > How to rotate a symbol
         > Click R
 
@@ -80,21 +80,22 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
         <p><i>Figure 6: Adding a wire</i></p>
         </div>
 
-        >[!TIP] 
+        > [!TIP]
         > Quicker way to find symbols
         > In the search menu type the symbol name directly
 
     - Connecting symbols
 
         <div align="center">
-        <img src="images/AddWire.png" width="800">
+        <img src="images/AddWire.png" width="300">
         <p><i>Figure 7: Adding a wire</i></p>
         </div>
 
         - Click on the add wire icon on the right-hand side toolbar
         - Connect the symbols together
 
-        >[!TIP] How to connect symbols
+        > [!TIP]
+        > How to connect symbols
         > Click once to start placing the wire
         > Click twice to change the direction of the wire
         > Click on the edge of a symbol to stop placing the wire
@@ -109,7 +110,7 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
         - Click on the power symbol icon
 
         <div align="center">
-        <img src="images/AddGround.png" width="800">
+        <img src="images/AddGround.png" width="300">
         <p><i>Figure 8: Adding a power symbol</i></p>
         </div>
 
@@ -147,7 +148,8 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
 
     OMG you've now completed making the schematic. You should be very proud!!!
 
-3.  
+3.  Clcik on the **PCB Editor** in figure 2
+    - 
 
 
 
