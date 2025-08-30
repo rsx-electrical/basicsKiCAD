@@ -26,7 +26,7 @@ Of couse in this tutorial you won't actually get to this step 3, as KiCad only a
 So now let's get onto using KiCad. Today you are tasked with creating a PCB that allows for an LED to turn on. Fun right!
 
 <div align="center">
-     <img src="images/Onboarding3dModel.png" width="300">
+     <img src="images/Onboarding3dModel.png" width="800">
      <p><i>Figure 1: Final 3D model of the PCB/i></p>
 </div>
 
