@@ -42,11 +42,9 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
     - Give it a name: *Onboarding*
     - Put it in a folder (for reference I put it in this folder: Documents/RSX/Onboarding)
 
-
-
     <div align="center">
-    ![KiCad Homepage](images/KiCadHomepage.png)
-    *Figure 2: The KiCad hompage*
+    <img src="images/KiCadHomepage.png" width="800">
+    <p><i>Figure 2: The KiCad homepage</i></p>
     </div>
 
     - You should see something that looks figure 2
@@ -54,23 +52,23 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
     - We are getting to the section where we can choose the legos to build our house. How exciting!!!
 
     <div align="center">
-    ![Adding Symbols](images/AddSymbol.png)
-    *Figure 3: Adding a new schematic symbol*
+    <img src="images/AddSymbol.png" width="800">
+    <p><i>Figure 3: Adding a new schematic symbol</i></p>
     </div>
 
-     - Following figure 3 go to the right-hand side toolbar and click on the add symbol icon. You should see your mouse change into this icon
+    - Following figure 3 go to the right-hand side toolbar and click on the add symbol icon. You should see your mouse change into this icon
     - Click anywhere on your screen and new tab should up as shown in figure 4
 
     <div align="center">
-    ![Adding Symbols tab](images/ChooseSymbolTab.png)
-    *Figure 4: Adding symbol tab*
+    <img src="images/ChooseSymbolTab.png" width="800">
+    <p><i>Figure 4: Adding symbol tab</i></p>
     </div>
-
 
     - There are three symbols you need to add: LED, resistor, and screw terminal
         - LED: find the symbol library **rsx_LED**, and doulbe click on the symbol name **LED_B**
 
-        > [!TIP] How to rotate a symbol
+        > [!TIP] 
+        > How to rotate a symbol
         > Click R
 
         - To place the symbol down click at the desired location on your schematic editor
@@ -78,22 +76,20 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
         - Screw Terminal: find the library **rsx_header_screw**, double click on **Screw_Terminal_2x2.54**, and click again to place
         
         <div align="center">
-        ![Placed symbols](images/PlacedSymbols.png)
-        *Figure 6: Adding a wire*  
+        <img src="images/PlacedSymbols.png" width="800">
+        <p><i>Figure 6: Adding a wire</i></p>
         </div>
- 
 
-
-        >[!TIP] Quicker way to find symbols
+        >[!TIP] 
+        > Quicker way to find symbols
         > In the search menu type the symbol name directly
 
     - Connecting symbols
 
         <div align="center">
-        ![Adding wires](images/AddWire.png)
-        *Figure 7: Adding a wire*  
+        <img src="images/AddWire.png" width="800">
+        <p><i>Figure 7: Adding a wire</i></p>
         </div>
- 
 
         - Click on the add wire icon on the right-hand side toolbar
         - Connect the symbols together
@@ -104,36 +100,37 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
         > Click on the edge of a symbol to stop placing the wire
 
         <div align="center">
+        <img src="images/SymbolsConnected.png" width="800">
+        <p><i>Figure 7: Symbols connected together</i></p>
         </div>
-        ![Connected Symbols](images/SymbolsConnected.png)
-        *Figure 7: Symbols connected together* 
+
 
     - Add the power symbol 
         - Click on the power symbol icon
-         <div align="center">
-        ![Power Symbol](images/AddGround.png)
-        *Figure 8: Adding a power symbol* 
-        </div>   
 
+        <div align="center">
+        <img src="images/AddGround.png" width="800">
+        <p><i>Figure 8: Adding a power symbol</i></p>
+        </div>
 
         - Find the symbol **GND** and **+3V3**, and place it like in figure 9
 
         <div align="center">
-        ![Final Schematic](images/SchematicWithError.png)
-        *Figure 9: Final Schematic* 
+        <img src="images/SchematicWithError.png" width="800">
+         <p><i>Figure 9: Final Schematic</i></p>
         </div>
 
     - Running the Electric Rules Checker (ERC)
         - Click on the ERC at the top toolbar and a new tab should open 
         <div align="center">
-        ![ERC](images/ERC.png)
-        *Figure 10: Electric Rules Checker* 
+        <img src="images/ERC.png" width="800">
+        <p><i>Figure 10: Electric Rules Checker</i></p>
         </div>
 
         - Click on the bottom **Run ERC** , in an ideal world and what you should aim to do is to have zero errors
         <div align="center">
-        ![ERCError](images/ERCError.png)
-        *Figure 11: Result after clicking Run ERC* 
+        <img src="images/ERCError.png" width="800">
+         <p><i>Figure 11: Result after clicking Run ERC</i></p>
         </div>
 
 
@@ -141,8 +138,8 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
         - To fix this error click on the power symbol icon (figure 8), and find the symbol **PWR_FLAG**
 
         <div align="center">
-        ![Actual Final Schematic](images/FinalSchematic.png)
-        *Figure 12: Actual Final Schematic* 
+        <img src="images/FinalSchematic.png" width="800">
+        <p><i>Figure 12: Actual Final Schematic</i></p>
         </div>
 
         - If you run ERC again you should have no errors, but if error remain take some time to fix them
