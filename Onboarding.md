@@ -1,7 +1,7 @@
 # Introduction to KiCad
 ## Onboarding project
 
-Welcome all. I'm going to make a couple of assumption which is you have no idea how to use KiCad or maybe you don't even know what KiCad is, but trust you are in good hands.
+Welcome all. I'm going to make a couple of assumptions which is you have no idea how to use KiCad or maybe you don't even know what KiCad is, but trust you are in good hands.
 
 Let's start with the basics...
 
@@ -37,13 +37,73 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
     - File -> New Project 
     - Give it a name: *Onboarding*
     - Put it in a folder (for reference I put it in this folder: Documents/RSX/Onboarding)
-    ![KiCad Homepage](images/KiCadHomepage.png)
-    *Figure 2: The KiCad hompage*
+        ![KiCad Homepage](images/KiCadHomepage.png)
+        *Figure 2: The KiCad hompage*
     - You should see something that looks this
 2. Click on the **Schematic Editor** in Figure 2
     - We are getting to the section where we can choose the legos to build our house. How exciting!!!
-    - 
+        ![Adding Symbols](images/AddSymbol.png)
+        *Figure 3: Adding a new schematic symbol*
+    - Following figure 3 go to the right-hand side toolbar and click on the add symbol icon. You should see your mouse change into this icon
+    - Click anywhere on your screen and new tab should up as shown in figure 4
+        ![Adding Symbols tab](images/ChooseSymbolTab.png)
+        *Figure 4: Adding symbol tab*
+    - There are three symbols you need to add: LED, resistor, and screw terminal
+        - LED: find the symbol library **rsx_LED**, and doulbe click on the symbol name **LED_B**
+        > [!TIP] How to rotate a symbol
+        > Click R
+        - To place the symbol down click at the desired location on your schematic editor
+        - Resistor: find the library **rsx_resistor**, double click on **200R_2W**, and click again to place
+        - Screw Terminal: find the library **rsx_header_screw**, double click on **Screw_Terminal_2x2.54**, and click again to place
+         ![Placed symbols](images/PlacedSymbols.png)
+        *Figure 6: Adding a wire*   
+        >[!TIP] Quicker way to find symbols
+        > In the search menu type the symbol name directly
+    - Connecting symbols
+        ![Adding wires](images/AddWire.png)
+        *Figure 7: Adding a wire*   
+        - Click on the add wire icon on the right-hand side toolbar
+        - Connect the symbols together
+        >[!TIP] How to connect symbols
+        > Click once to start placing the wire
+        > Click twice to change the direction of the wire
+        > Click on the edge of a symbol to stop placing the wire
+        ![Connected Symbols](images/SymbolsConnected.png)
+        *Figure 7: Symbols connected together* 
+    - Add the power symbol 
+        - Click on the power symbol icon
+        ![Power Symbol](images/AddGround.png)
+        *Figure 8: Adding a power symbol* 
+        - Find the symbol **GND** and **+3V3**, and place it like in figure 9
+        ![Final Schematic](images/SchematicWithError.png)
+        *Figure 9: Final Schematic* 
+    - Running the Electric Rules Checker (ERC)
+        - Click on the ERC at the top toolbar and a new tab should open 
+        ![ERC](images/ERC.png)
+        *Figure 10: Electric Rules Checker* 
+        - Click on the bottom **Run ERC** , in an ideal world and what you should aim to do is to have zero errors
+        ![ERCError](images/ERCError.png)
+        *Figure 11: Result after clicking Run ERC* 
+        - Ohhh no, some errors seem to have occured, if you look carefully there are no drivers to our power pins. What this means is that the ERC is freaking out because there is no way for our LED to be powered--there's no external power source connected to our PCB!
+        - To fix this error click on the power symbol icon (figure 8), and find the symbol **PWR_FLAG**
+        ![Actual Final Schematic](images/FinalSchematic.png)
+        *Figure 12: Actual Final Schematic* 
+        - If you run ERC again you should have no errors, but if error remain take some time to fix them
 
+
+    OMG you've now completed making the schematic. You should be very proud!!!
+
+3.  
+
+
+
+
+    
+
+
+
+
+        
 
 
 
