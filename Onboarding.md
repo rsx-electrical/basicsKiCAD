@@ -70,8 +70,7 @@ There are three symbols you need to add: LED, resistor, and screw terminal
 - LED: find the symbol library **rsx_LED**, and doulbe click on the symbol name **LED_B**
 
 > [!TIP] 
-> How to rotate a symbol
-> Press R
+> To rotate a symbol Press **R**
 
 - To place the symbol down click at the desired location on your schematic editor
 - Resistor: find the library **rsx_resistor**, double click on **200R_2W**, and click again to place
@@ -83,8 +82,7 @@ There are three symbols you need to add: LED, resistor, and screw terminal
 </div>
 
 > [!TIP]
-> Quicker way to find symbols
-> In the search menu type the symbol name directly
+> A quicker way to find symbols is to search for the symbol name directly
 
 Connecting symbols
 
@@ -96,10 +94,10 @@ Connecting symbols
 - Connect the symbols together
 
 > [!TIP]
-> How to connect symbols
-> Click once to start placing the wire
-> Click twice to change the direction of the wire
-> Click on the edge of a symbol to stop placing the wire
+> - How to connect symbols
+> - Click once to start placing the wire
+> - Click twice to change the direction of the wire
+> - Click on the edge of a symbol to stop placing the wire
 
 <div align="center">
 <img src="images/SymbolsConnected.png" width="800">
