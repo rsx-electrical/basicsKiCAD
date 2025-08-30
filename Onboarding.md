@@ -39,19 +39,20 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
 #### Steps to this Simple Design
 1. Make a new project: 
 
-- File -> New Project 
-- Give it a name: *Onboarding*
-- Put it in a folder (for reference I put it in this folder: Documents/RSX/Onboarding)
+File -> New Project 
+Give it a name: *Onboarding*
+Put it in a folder (for reference I put it in this folder: Documents/RSX/Onboarding)
 
 <div align="center">
 <img src="images/KiCadHomepage.png" width="800">
 <p><i>Figure 2: The KiCad homepage</i></p>
 </div>
 
-- You should see something that looks figure 2
+You should see something that looks figure 2
+
 
 2. Click on the **Schematic Editor** in Figure 2
-- We are getting to the section where we can choose the legos to build our house. How exciting!!!
+We are getting to the section where we can choose the legos to build our house. How exciting!!!
 
 <div align="center">
 <img src="images/AddSymbol.png" width="300">
@@ -94,7 +95,7 @@ Connecting symbols
 - Connect the symbols together
 
 > [!TIP]
-> - How to connect symbols
+> How to connect symbols
 > - Click once to start placing the wire
 > - Click twice to change the direction of the wire
 > - Click on the edge of a symbol to stop placing the wire
@@ -147,7 +148,9 @@ Running the Electric Rules Checker (ERC)
 
 OMG you've now completed making the schematic. You should be very proud!!!
 
-3.  Clcik on the **PCB Editor** in figure 2
+
+3.  Click on the **PCB Editor** in figure 2
+
 
 
 
