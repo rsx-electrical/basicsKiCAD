@@ -37,8 +37,8 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
     - File -> New Project 
     - Give it a name: *Onboarding*
     - Put it in a folder (for reference I put it in this folder: Documents/RSX/Onboarding)
-    - ![KiCad Homepage](images/KiCadHomepage.png)
-    - *Figure 2: The KiCad hompage*
+    ![KiCad Homepage](images/KiCadHomepage.png)
+    *Figure 2: The KiCad hompage*
     - You should see something that looks this
 2. Click on the **Schematic Editor** in Figure 2
     - We are getting to the section where we can choose the legos to build our house. How exciting!!!
