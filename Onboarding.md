@@ -66,11 +66,9 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
 
     - There are three symbols you need to add: LED, resistor, and screw terminal
         - LED: find the symbol library **rsx_LED**, and doulbe click on the symbol name **LED_B**
-
-> [!IMPORTANT] 
-> How to rotate a symbol
-> Click R
-
+        <div style="border-left:4px solid #1f6feb;padding:8px 12px;background:#f6f8fa;">
+        <strong>Tip:</strong> How to rotate a symbol — press <b>R</b>.
+        </div>
 
         - To place the symbol down click at the desired location on your schematic editor
         - Resistor: find the library **rsx_resistor**, double click on **200R_2W**, and click again to place
