@@ -24,8 +24,12 @@ Of couse in this tutorial you won't actually get to this step 3, as KiCad only a
 ### A Simple Design
 #### Introduction to the Desgin
 So now let's get onto using KiCad. Today you are tasked with creating a PCB that allows for an LED to turn on. Fun right!
+
+<div align="center">
 ![Onbarding 3D Model](images/Onboarding3dModel.png)
 *Figure 1: Final 3D model of the PCB*
+</div>
+
 
 If we look at the photo, you'll see the following labels D1, R1, and J1--these are footprint references. 
 - D1: LED
@@ -38,21 +42,30 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
     - Give it a name: *Onboarding*
     - Put it in a folder (for reference I put it in this folder: Documents/RSX/Onboarding)
 
+
+
+    <div align="center">
     ![KiCad Homepage](images/KiCadHomepage.png)
     *Figure 2: The KiCad hompage*
+    </div>
 
-    - You should see something that looks this
+    - You should see something that looks figure 2
 2. Click on the **Schematic Editor** in Figure 2
     - We are getting to the section where we can choose the legos to build our house. How exciting!!!
 
+    <div align="center">
     ![Adding Symbols](images/AddSymbol.png)
-     *Figure 3: Adding a new schematic symbol*
+    *Figure 3: Adding a new schematic symbol*
+    </div>
 
-    - Following figure 3 go to the right-hand side toolbar and click on the add symbol icon. You should see your mouse change into this icon
+     - Following figure 3 go to the right-hand side toolbar and click on the add symbol icon. You should see your mouse change into this icon
     - Click anywhere on your screen and new tab should up as shown in figure 4
 
+    <div align="center">
     ![Adding Symbols tab](images/ChooseSymbolTab.png)
     *Figure 4: Adding symbol tab*
+    </div>
+
 
     - There are three symbols you need to add: LED, resistor, and screw terminal
         - LED: find the symbol library **rsx_LED**, and doulbe click on the symbol name **LED_B**
@@ -63,9 +76,12 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
         - To place the symbol down click at the desired location on your schematic editor
         - Resistor: find the library **rsx_resistor**, double click on **200R_2W**, and click again to place
         - Screw Terminal: find the library **rsx_header_screw**, double click on **Screw_Terminal_2x2.54**, and click again to place
-
-         ![Placed symbols](images/PlacedSymbols.png)
-        *Figure 6: Adding a wire*   
+        
+        <div align="center">
+        ![Placed symbols](images/PlacedSymbols.png)
+        *Figure 6: Adding a wire*  
+        </div>
+ 
 
 
         >[!TIP] Quicker way to find symbols
@@ -73,8 +89,11 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
 
     - Connecting symbols
 
+        <div align="center">
         ![Adding wires](images/AddWire.png)
-        *Figure 7: Adding a wire*   
+        *Figure 7: Adding a wire*  
+        </div>
+ 
 
         - Click on the add wire icon on the right-hand side toolbar
         - Connect the symbols together
@@ -84,37 +103,48 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
         > Click twice to change the direction of the wire
         > Click on the edge of a symbol to stop placing the wire
 
+        <div align="center">
+        </div>
         ![Connected Symbols](images/SymbolsConnected.png)
         *Figure 7: Symbols connected together* 
 
     - Add the power symbol 
         - Click on the power symbol icon
-
+         <div align="center">
         ![Power Symbol](images/AddGround.png)
         *Figure 8: Adding a power symbol* 
+        </div>   
+
 
         - Find the symbol **GND** and **+3V3**, and place it like in figure 9
 
+        <div align="center">
         ![Final Schematic](images/SchematicWithError.png)
         *Figure 9: Final Schematic* 
+        </div>
 
     - Running the Electric Rules Checker (ERC)
         - Click on the ERC at the top toolbar and a new tab should open 
-
+        <div align="center">
         ![ERC](images/ERC.png)
         *Figure 10: Electric Rules Checker* 
+        </div>
 
         - Click on the bottom **Run ERC** , in an ideal world and what you should aim to do is to have zero errors
-
+        <div align="center">
         ![ERCError](images/ERCError.png)
         *Figure 11: Result after clicking Run ERC* 
+        </div>
+
 
         - Ohhh no, some errors seem to have occured, if you look carefully there are no drivers to our power pins. What this means is that the ERC is freaking out because there is no way for our LED to be powered--there's no external power source connected to our PCB!
         - To fix this error click on the power symbol icon (figure 8), and find the symbol **PWR_FLAG**
 
+        <div align="center">
         ![Actual Final Schematic](images/FinalSchematic.png)
         *Figure 12: Actual Final Schematic* 
-        
+        </div>
+
         - If you run ERC again you should have no errors, but if error remain take some time to fix them
 
 
