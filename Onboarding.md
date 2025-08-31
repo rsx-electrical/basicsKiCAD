@@ -143,13 +143,52 @@ Running the Electric Rules Checker (ERC)
 <p><i>Figure 12: Actual Final Schematic</i></p>
 </div>
 
-- If you run ERC again you should have no errors, but if error remain take some time to fix them
+- If you run ERC again you should have no errors, but if errors remain take some time to fix them
 
-
-OMG you've now completed making the schematic. You should be very proud!!!
 
 
 3.  Click on the **PCB Editor** in figure 2
+OMG you've now completed making the schematic. You should be very proud!!! Now we get to move onto designing how the lego pieces will fit together. 
+
+<div align="center">
+<img src="images/Layers.png" width="200">
+<p><i>Figure 13: PCB Editor Layers</i></p>
+</div>
+
+From figure 13 you can the layers that make up our PCB. There are a couple important layers I want to draw your attention to. 
+1. F.Cu: front copper layer
+2. B.Cu: back copper layer 
+3. F.Silkscreen 
+4. B.Silkscreen
+5. Edge.Cuts
+
+<div align="center">
+<img src="images/3dModelTop.png" width="800">
+<p><i>Figure 14: PCB top layer</i></p>
+</div>
+
+- If you observe figure 14 you'll see lines connecting the component together, there are called **traces**. The traces care created on the copper layers, either the top or the bottom. In this project all traces are on the top copper layer. 
+- The footprint reference values: D1, R1, J1 are all found on the silkscreen layers, either the front or the back. The silkscreen is an ink layer where text and graphics can be displayed on a PCB. 
+- Lastly, Edge.Cuts is used to define the size of your PCB. 
+- There are other layers, but for the purpose of this tutorial only these 3 kinds of layers are important. 
+
+
+Let's start by defining the PCB size
+<div align="center">
+<img src="images/DefiningPCBSize.png" width="300">
+<p><i>Figure 15: Defining the PCB Size</i></p>
+</div>
+
+- Press into the Edge.Cuts layer and click on the draw line icon
+- Create a square as shown in figure 16 which is 20x20mm
+
+<div align="center">
+<img src="images/CreatingSquare.png" width="300">
+<p><i>Figure 16: Creating a Square</i></p>
+</div>
+
+
+
 
 
 
