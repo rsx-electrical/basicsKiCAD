@@ -220,12 +220,35 @@ Now let's move the components from our schematic
 </div>
 
 - A new tab should open, press the button **Update PCB**
-- Three objects should appear, click anywhere on the screen to place them down 
+- Three components should appear, click anywhere on the screen to place them down 
 
 <div align="center">
-<img src="images/PCBThreeObject.png" width="300">
-<p><i>Figure 21: PCB with three objects to the side </i></p>
+<img src="images/PCBThreeObjects.png" width="300">
+<p><i>Figure 21: PCB with three components to the side </i></p>
 </div>
+
+Let's arrange the components onto the ground plane
+
+> [!TIP] 
+> After clicking on the component, to rotate it press **R**
+
+<div align="center">
+<img src="images/ComponentsPlacedOnPCB.png" width="300">
+<p><i>Figure 22: Components placed on the PCB </i></p>
+</div>
+
+- ensure the light blue lines do not cross over each other, follow the example in figure 22
+
+- Now let's add some wires that will connect the components together, these wire are called **traces**
+
+
+<div align="center">
+<img src="images/RouteTracks.png" width="300">
+<p><i>Figure 23: Components placed on the PCB </i></p>
+</div>
+
+-  
+
 
 
 
