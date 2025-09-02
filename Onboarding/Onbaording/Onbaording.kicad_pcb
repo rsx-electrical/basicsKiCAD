@@ -667,7 +667,7 @@
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -3 360)
+			(at 0 -3 0)
 			(layer "F.SilkS")
 			(uuid "3603b4f0-1b6c-4348-9e0c-5e7718c54b97")
 			(effects
@@ -678,7 +678,7 @@
 			)
 		)
 		(property "Value" "200R_2W"
-			(at 0 2.62 360)
+			(at 0 2.62 0)
 			(layer "F.Fab")
 			(uuid "272cf4bd-c0b0-4f83-875b-903d6c39b737")
 			(effects
@@ -689,7 +689,7 @@
 			)
 		)
 		(property "Footprint" "rsx_resistors:R_2512_6332Metric"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2959da20-f2cc-4559-b018-947e9d4f86a8")
@@ -701,7 +701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ca22a4b-c069-4f27-81f2-8e4f8cb73375")
@@ -713,7 +713,7 @@
 			)
 		)
 		(property "Description" "RES SMD 200 OHM 1% 2W 2512"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "06c839fc-0c43-4ac3-9af4-4405bf0be6c1")
@@ -869,7 +869,7 @@
 			(uuid "558f748c-ff91-4fa0-98b4-8e3cc7993aaf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7973b733-dd53-4d94-812d-fa845491a494")
 			(effects
@@ -910,6 +910,16 @@
 		)
 	)
 	(gr_line
+		(start 156 54)
+		(end 176 54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1b504490-1c0e-49f3-8e00-fc13fe3f2848")
+	)
+	(gr_line
 		(start 92 54)
 		(end 110 54)
 		(stroke
@@ -920,6 +930,26 @@
 		(uuid "2041ee5d-c6f7-4e10-aeb2-2373f7f2eaab")
 	)
 	(gr_line
+		(start 176 54)
+		(end 176 74)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "27501af2-f414-4284-b21a-ead11637f433")
+	)
+	(gr_line
+		(start 156 74)
+		(end 156 54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3e3427fb-6d3a-4047-a089-b3d35f664492")
+	)
+	(gr_line
 		(start 111 55)
 		(end 111 73)
 		(stroke
@@ -928,6 +958,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "4b632799-7a08-4906-b612-de4442f1c576")
+	)
+	(gr_line
+		(start 176 74)
+		(end 156 74)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "74d1919e-2044-42b6-8409-1de63040587b")
 	)
 	(gr_line
 		(start 110 74)

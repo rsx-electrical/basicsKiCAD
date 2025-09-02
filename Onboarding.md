@@ -180,12 +180,59 @@ Let's start by defining the PCB size
 </div>
 
 - Press into the Edge.Cuts layer and click on the draw line icon
-- Create a square as shown in figure 16 which is 20x20mm
+- Create a square as shown in figure 16 which is 20x20mm in size
 
 <div align="center">
 <img src="images/CreatingSquare.png" width="300">
 <p><i>Figure 16: Creating a Square</i></p>
 </div>
+
+Now let's add the ground layer
+- Press into the F.Cu layer and click on the filled zone icon
+
+<div align="center">
+<img src="images/AddFilledZone.png" width="300">
+<p><i>Figure 17: Filled Zone Icon</i></p>
+</div>
+
+- Click on the top left corner of the square
+
+<div align="center">
+<img src="images/PlacingGround.png" width="300">
+<p><i>Figure 18: Click on the top left corner </i></p>
+</div>
+
+- A new tab should open
+- make sure you select the B.Cu layer and GND (ground), then click OK
+- create another square and press B on your keyboard, the zone should turn blue
+
+<div align="center">
+<img src="images/Ground.png" width="300">
+<p><i>Figure 19: Ground Layer </i></p>
+</div>
+
+Now let's move the components from our schematic
+- On the top toolbar click on the Update PCB from schematic icon
+
+<div align="center">
+<img src="images/UpdatePCB.png" width="300">
+<p><i>Figure 20: Update PCB from Schematic </i></p>
+</div>
+
+- A new tab should open, press the button **Update PCB**
+- Three objects should appear, click anywhere on the screen to place them down 
+
+<div align="center">
+<img src="images/PCBThreeObject.png" width="300">
+<p><i>Figure 21: PCB with three objects to the side </i></p>
+</div>
+
+
+
+
+
+
+
 
 
 
