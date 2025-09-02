@@ -955,7 +955,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "0ce73804-6ed1-4b1e-8782-afb1b107059c")
+		(uuid "b7c5f833-9dda-4de7-ad68-45f9197c8400")
 	)
 	(via
 		(at 158 59)
@@ -963,7 +963,7 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
-		(uuid "c5b8cbeb-d82c-4104-90fb-51dc137854c3")
+		(uuid "fdaca0c4-3f22-44b0-8b51-c1d9f735583f")
 	)
 	(segment
 		(start 163.9375 57)

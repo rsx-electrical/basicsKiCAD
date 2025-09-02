@@ -240,15 +240,53 @@ Let's arrange the components onto the ground plane
 - ensure the light blue lines do not cross over each other, follow the example in figure 22
 
 - Now let's add some wires that will connect the components together, these wire are called **traces**
-
+- on the righthand side tool bar click on the Route Tracks icon 
 
 <div align="center">
 <img src="images/RouteTracks.png" width="300">
 <p><i>Figure 23: Components placed on the PCB </i></p>
 </div>
 
--  
+> [!TIP] 
+> For placing the traces
+> - click once to start the trace
+> - click on empty space to turn the trace
+> - click on the next component to end the trace
 
+- connect all the components together like in figure 24
+
+<div align="center">
+<img src="images/WithTraces.png" width="500">
+<p><i>Figure 24: Traces Connecting the Components  </i></p>
+</div>
+
+- Press **B** on your keyboard, this allows for the ground plane to reset, if you look closely at the screw terminal you can the ground plane wrapping around the pads, but for the ground pad the ground plane extends itself such that ground is connected to ground
+
+- You might be wondering why we left the ground unnconnected, I mainly want to show you the method that usually used which is with a **via**
+- start a new trace on the LED's ground pad and click again the empty space to the left
+
+<div align="center">
+<img src="images/Via1.png" width="500">
+<p><i>Figure 25: Connecting to the ground plane using a via</i></p>
+</div>
+
+- On the righthand side toolbar find the **Add Via** icon 
+- click on the side of the trace not connected to any component
+
+<div align="center">
+<img src="images/Via2.png" width="500">
+<p><i>Figure 26: Placing a via</i></p>
+</div>
+
+- now the ground pad of the LED is connect to the ground plane
+- A via can be thought of as a hole, that allows for a trace (which in on the top copper layer) to be connected to the bottom copper layer
+- Press **B** on
+
+
+> [!TIP] 
+> Pressing B is common practice after making changes to a PCB
+
+We are 
 
 
 
