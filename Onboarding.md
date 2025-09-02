@@ -183,7 +183,7 @@ Let's start by defining the PCB size
 - Create a square as shown in figure 16 which is 20x20mm in size
 
 <div align="center">
-<img src="images/CreatingSquare.png" width="300">
+<img src="images/CreatingSquare.png" width="500">
 <p><i>Figure 16: Creating a Square</i></p>
 </div>
 
@@ -198,7 +198,7 @@ Now let's add the ground layer
 - Click on the top left corner of the square
 
 <div align="center">
-<img src="images/PlacingGround.png" width="300">
+<img src="images/PlacingGround.png" width="500">
 <p><i>Figure 18: Click on the top left corner </i></p>
 </div>
 
@@ -207,7 +207,7 @@ Now let's add the ground layer
 - create another square and press B on your keyboard, the zone should turn blue
 
 <div align="center">
-<img src="images/Ground.png" width="300">
+<img src="images/Ground.png" width="500">
 <p><i>Figure 19: Ground Layer </i></p>
 </div>
 
@@ -233,7 +233,7 @@ Let's arrange the components onto the ground plane
 > After clicking on the component, to rotate it press **R**
 
 <div align="center">
-<img src="images/ComponentsPlacedOnPCB.png" width="300">
+<img src="images/ComponentsPlacedOnPCB.png" width="500">
 <p><i>Figure 22: Components placed on the PCB </i></p>
 </div>
 
