@@ -286,17 +286,83 @@ Let's arrange the components onto the ground plane
 > [!TIP] 
 > Pressing B is common practice after making changes to a PCB
 
-We are 
+We are now done the PCB, but wait we need to verify if everything is connected correctly
+- On the top toolbar click on the **Design Rules Checker Icon**
+
+<div align="center">
+<img src="images/DRC.png" width="500">
+<p><i>Figure 27: Design Rules Checker</i></p>
+</div>
+
+- A new tab should open, click on the botton **Run DRC**
+- You should see no errors, but four warnings that tell you the reference texts are too small. 
+
+<div align="center">
+<img src="images/Warnings.png" width="500">
+<p><i>Figure 28: Warnings from the Design Rules Checker</i></p>
+</div>
+
+- You should see yellow arrows pointing to the exact error 
+- To fix go to: Edit -> Edit Text and Graphic Properties
 
 
+<div align="center">
+<img src="images/ChangingFontSize.png" width="500">
+<p><i>Figure 29: Changing the Text Size</i></p>
+</div>
+
+- Follow figure 29, in scope check off Reference designator, Other footprint, and change the text width and text height to be 0.8
+- click apply 
+- if you run the DRC again you'll see silk screen errors
 
 
+<div align="center">
+<img src="images/SilkscreenWarning.png" width="500">
+<p><i>Figure 30: Silkscreen Warnings </i></p>
+</div>
+
+<div align="center">
+<img src="images/OverlapSilkscreen.png" width="500">
+<p><i>Figure 31: Silkscreen Warnings More Detail </i></p>
+</div>
+
+- if you look at figure 31, you can see D1 overlapping the yellow line
+- to fix drag D1 up
+
+<div align="center">
+<img src="images/FixedSilkscreen.png" width="500">
+<p><i>Figure 32: Silkscreen fixed </i></p>
+</div>
+
+- do this for all other texts blocks 
+
+<div align="center">
+<img src="images/SilkscreenAllFixed.png" width="500">
+<p><i>Figure 33: Silkscreen all fixed </i></p>
+</div>
+
+- run DRC again and you should see no errors!!!
+
+<div align="center">
+<img src="images/DRCNoErrors.png" width="500">
+<p><i>Figure 34: DRC has no errors </i></p>
+</div>
+
+You are now down with the PCB layout. YAY!!!
+
+As a final bonus, if you want to see the 3D model of your PCB...
+- on the top toolbar click on 3D Viewer 
 
 
+<div align="center">
+<img src="images/3DViewer.png" width="300">
+<p><i>Figure 35: 3D Viewer Icon </i></p>
+</div>
+
+- And you should be brought to a new page and see the image as shown with figure 1
 
 
-
-
+Hope you enjoyed. This is the end. 
 
 
 
