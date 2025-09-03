@@ -3,7 +3,8 @@ Video: [images/Setup/setup_edited.mp4](images/Setup/setup_edited.mp4)
 > Notes:
 > - 3a Git installation is skipped. Refer to the linked guides.
 > - 3c Git clone is different in the video. The local repository name is ```rsx_standard_library2``` instead of ```rsx_standard_library```
-
+------------------------------
+Steps:
 > 1. Download [KiCad](https://www.kicad.org/download) onto your local computer (download the most updated please -> ver. 9.0.4)
 > 2. Install KiCad 
 >    a. Next -> Next -> Next -> Install
