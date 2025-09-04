@@ -90,12 +90,12 @@
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -2.159 90)
+			(at 0.113664 -2.649375 90)
 			(layer "F.SilkS")
 			(uuid "62696e22-5375-49c1-94b2-e66af6497148")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 			)
@@ -297,7 +297,7 @@
 			(uuid "cc4d77de-a0eb-41e3-ab65-41acd4debbf7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -339,12 +339,12 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at 0 -1.397 0)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "ac55822d-6f63-4f7b-95ed-d5fa4cf3e899")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 			)
@@ -566,7 +566,7 @@
 			(uuid "8700446f-bdde-418b-8cab-1210d32d4dff")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.8 0.8)
 					(thickness 0.08)
 				)
 			)
@@ -610,12 +610,12 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J1"
-			(at 0.635 -3.81 0)
+			(at 0.635 -4 0)
 			(layer "F.SilkS")
 			(uuid "db5c52af-40c9-4f4c-b762-d810f965b302")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 			)
@@ -852,13 +852,13 @@
 			(uuid "b2cd7f0d-301d-4993-bdac-e6e1891eed98")
 		)
 		(fp_text user "1"
-			(at -2.667 2.6 0)
+			(at -3.233381 2.559931 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e456f527-3962-4a3e-a606-e7308285a2cd")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.8)
 					(thickness 0.1)
 					(bold yes)
 				)
@@ -870,7 +870,7 @@
 			(uuid "a4edb5d5-1149-4755-88ed-b2974db70efe")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -955,7 +955,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "0ce73804-6ed1-4b1e-8782-afb1b107059c")
+		(uuid "b7c5f833-9dda-4de7-ad68-45f9197c8400")
 	)
 	(via
 		(at 158 59)
@@ -963,7 +963,7 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
-		(uuid "c5b8cbeb-d82c-4104-90fb-51dc137854c3")
+		(uuid "fdaca0c4-3f22-44b0-8b51-c1d9f735583f")
 	)
 	(segment
 		(start 163.9375 57)
