@@ -1,12 +1,12 @@
 # Kicad Installation + Libraries Setup
 
 > [!NOTE]
-> Watch this videa if you don't want to go through the document [KiCad Installation + Libraries Setup](https://www.youtube.com/watch?v=v_a2_bqHfKQ)
+> Watch this videa if you don't want to go through the document: [KiCad Installation + Libraries Setup](https://www.youtube.com/watch?v=v_a2_bqHfKQ)
 
 
 > [!IMPORTANT]
-> - 3a Git installation is skipped. Refer to the linked guides.
-> - 3c Git clone is different in the video. The local repository name is ```rsx_standard_library2``` instead of ```rsx_standard_library```
+> - When cloning the reponsitory, in the videa the local repository name is ```rsx_standard_library2``` instead of ```rsx_standard_library```
+> ** make sure to use ```rsx_standard_library``` **
 
 ------------------------------
 
@@ -17,9 +17,10 @@ Steps:
 - b. Move to next step while we wait
 3. Clone this repository onto your local computer: [rsx_standard_library](https://github.com/rsx-electrical/rsx_standard_library)
 - a. Download [Git](https://git-scm.com)
+> [!NOTE] Git installation is skipped. Refer to the linked guides.
 - b. Install git. Here's a [guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 > [!NOTE]
-> - 2.b1 Here's an easier guide for windows, watch until 1:14. [https://www.youtube.com/watch?v=iYkLrXobBbA](https://www.youtube.com/watch?v=iYkLrXobBbA)
+> - Here's an easier guide for windows, watch until 1:14. [https://www.youtube.com/watch?v=iYkLrXobBbA](https://www.youtube.com/watch?v=iYkLrXobBbA)
 - c. In git bash: (fill in the < >)
 
 ```bash
