@@ -16,11 +16,10 @@ Steps:
 - a. Next -> Next -> Next -> Install
 - b. Move to next step while we wait
 3. Clone this repository onto your local computer: [rsx_standard_library](https://github.com/rsx-electrical/rsx_standard_library)
-- a. Download [Git](https://git-scm.com)
-
 > [!TIP] 
-> Git installation is skipped. Refer to the linked guides.
+> Git download and installation is skipped. Refer to the linked guides.
 
+- a. Download [Git](https://git-scm.com)
 - b. Install git. Here's a [guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 > [!TIP]
 > - Here's an easier guide for windows, watch until 1:14. [https://www.youtube.com/watch?v=iYkLrXobBbA](https://www.youtube.com/watch?v=iYkLrXobBbA)
