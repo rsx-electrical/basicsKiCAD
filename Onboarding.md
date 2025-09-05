@@ -164,7 +164,7 @@ Let's start by moving the components from our schematic on the PCB Editor
 
 <div align="center">
 <img src="images/PCBThreeObjects.png" width="300">
-<p><i>Figure 14: PCB with three components to the side </i></p>
+<p><i>Figure 14: PCB with three components</i></p>
 </div>
 
 
@@ -174,7 +174,7 @@ Let's start by moving the components from our schematic on the PCB Editor
 <p><i>Figure 15: PCB Editor Layers</i></p>
 </div>
 
-From figure 15 you can the layers that make up our PCB. There are a couple important layers I want to draw your attention to. 
+From figure 15 you can see the layers that make up our PCB. There are a couple important layers I want to draw your attention to. 
 1. F.Cu: front copper layer
 2. B.Cu: back copper layer 
 3. F.Silkscreen 
@@ -224,6 +224,12 @@ Now let's add the ground layer
 - A new tab should open
 - make sure you select the B.Cu layer and GND (ground), then click OK
 - create another square and press B on your keyboard, the zone should turn blue
+
+<div align="center">
+<img src="images/CopperZoneProperties.png" width="500">
+<p><i>Figure 21: Ground Layer Properties</i></p>
+</div>
+
 
 <div align="center">
 <img src="images/Ground.png" width="500">
