@@ -1,7 +1,7 @@
 # Kicad Installation + Libraries Setup
 
 > [!NOTE]
-> Watch this videa if you don't want to go through the document: [KiCad Installation + Libraries Setup](https://www.youtube.com/watch?v=v_a2_bqHfKQ)
+> Watch this video if you don't want to go through the document: [KiCad Installation + Libraries Setup](https://www.youtube.com/watch?v=v_a2_bqHfKQ)
 
 
 > [!IMPORTANT]
