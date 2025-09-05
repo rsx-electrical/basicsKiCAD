@@ -145,11 +145,11 @@ Running the Electric Rules Checker (ERC)
 </div>
 
 - If you run ERC again you should have no errors, but if errors remain take some time to fix them
-
+- OMG you've now completed making the schematic. You should be very proud!!! Now we get to move onto designing how the lego pieces will fit together.
 ------------------------------
 
-3.  Click on the **PCB Editor** in figure 2
-OMG you've now completed making the schematic. You should be very proud!!! Now we get to move onto designing how the lego pieces will fit together. 
+3. Click on the **PCB Editor** in figure 2
+ 
 
 Let's start by moving the components from our schematic on the PCB Editor
 - On the top toolbar click on the Update PCB from schematic icon
