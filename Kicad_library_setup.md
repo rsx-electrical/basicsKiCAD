@@ -62,6 +62,7 @@ README.md  rsx_3d/  rsx_footprints/  rsx_syms/
     <img src="images/Setup/3d_config_paths.png" width="800">
    </div>
 
+- b. add the absolute path of <my_directory>/rsx_standard_library/rsx_3d
 | Name          | path          |
 | ------------- | ------------- |
 | RSX_3D_LIB    | <my_directory>/rsx_standard_library/rsx_3d  |
@@ -69,6 +70,6 @@ README.md  rsx_3d/  rsx_footprints/  rsx_syms/
     <img src="images/Setup/3d_add_path.png" width="800">
    </div>
 
-- b. add the absolute path of <my_directory>/rsx_standard_library/rsx_3d
+
 
 
