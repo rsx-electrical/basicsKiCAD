@@ -226,7 +226,7 @@ Now let's add the ground layer
 - create another square and press B on your keyboard, the zone should turn blue
 
 <div align="center">
-<img src="images/CopperZoneProperties.png" width="500">
+<img src="images/CopperZoneProperties.png" width="800">
 <p><i>Figure 21: Ground Layer Properties</i></p>
 </div>
 
