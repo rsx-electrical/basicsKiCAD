@@ -1,5 +1,8 @@
 # Kicad Installation + Libraries Setup
-Video: [images/Setup/setup_edited.mp4](images/Setup/setup_edited.mp4)
+
+> [!NOTE]
+> Watch this videa if you don't want to go through the document [KiCad Installation + Libraries Setup](https://www.youtube.com/watch?v=iYkLrXobBbA)
+
 
 > [!IMPORTANT]
 > - 3a Git installation is skipped. Refer to the linked guides.
