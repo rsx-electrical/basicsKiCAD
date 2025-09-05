@@ -9,7 +9,7 @@ Let's start with the basics...
 > In order to proceed with this tutorial you must 
 > 1. Download KiCad onto your local computer (download the most updated please)
 > 2. Clone this repository onto your local computer: [rsx_standard_library](https://github.com/rsx-electrical/rsx_standard_library)
-> If you have no idea how to do the previous 2 steps refer to: [KiCad_librar_setup](https://github.com/rsx-electrical/basicsKiCAD/blob/main/Kicad_library_setup.md)
+> If you have no idea how to do the previous 2 steps refer to: [KiCad_library_setup](https://github.com/rsx-electrical/basicsKiCAD/blob/main/Kicad_library_setup.md)
 
 ### What is KiCad?
 It is a software for developing printed circuit boards (PCBs). If those words went over your head let's start with an analogy--designing a PCB is analogous to playing with legos. 
