@@ -50,6 +50,7 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
 
 - You should see something that looks figure 2
 
+------------------------------
 
 2. Click on the **Schematic Editor** in Figure 2
 - We are getting to the section where we can choose the legos to build our house. How exciting!!!
@@ -145,17 +146,35 @@ Running the Electric Rules Checker (ERC)
 
 - If you run ERC again you should have no errors, but if errors remain take some time to fix them
 
-
+------------------------------
 
 3.  Click on the **PCB Editor** in figure 2
 OMG you've now completed making the schematic. You should be very proud!!! Now we get to move onto designing how the lego pieces will fit together. 
 
+Let's start by moving the components from our schematic on the PCB Editor
+- On the top toolbar click on the Update PCB from schematic icon
+
 <div align="center">
-<img src="images/Layers.png" width="200">
-<p><i>Figure 13: PCB Editor Layers</i></p>
+<img src="images/UpdatePCB.png" width="300">
+<p><i>Figure 13: Update PCB from Schematic </i></p>
 </div>
 
-From figure 13 you can the layers that make up our PCB. There are a couple important layers I want to draw your attention to. 
+- A new tab should open, press the button **Update PCB**
+- Three components should appear, click anywhere on the screen to place them down 
+
+<div align="center">
+<img src="images/PCBThreeObjects.png" width="300">
+<p><i>Figure 14: PCB with three components to the side </i></p>
+</div>
+
+
+
+<div align="center">
+<img src="images/Layers.png" width="200">
+<p><i>Figure 15: PCB Editor Layers</i></p>
+</div>
+
+From figure 15 you can the layers that make up our PCB. There are a couple important layers I want to draw your attention to. 
 1. F.Cu: front copper layer
 2. B.Cu: back copper layer 
 3. F.Silkscreen 
@@ -164,10 +183,10 @@ From figure 13 you can the layers that make up our PCB. There are a couple impor
 
 <div align="center">
 <img src="images/3dModelTop.png" width="800">
-<p><i>Figure 14: PCB top layer</i></p>
+<p><i>Figure 16: PCB top layer</i></p>
 </div>
 
-- If you observe figure 14 you'll see lines connecting the component together, there are called **traces**. The traces care created on the copper layers, either the top or the bottom. In this project all traces are on the top copper layer. 
+- If you observe figure 16 you'll see lines connecting the component together, there are called **traces**. The traces care created on the copper layers, either the top or the bottom. In this project all traces are on the top copper layer. 
 - The footprint reference values: D1, R1, J1 are all found on the silkscreen layers, either the front or the back. The silkscreen is an ink layer where text and graphics can be displayed on a PCB. 
 - Lastly, Edge.Cuts is used to define the size of your PCB. 
 - There are other layers, but for the purpose of this tutorial only these 3 kinds of layers are important. 
@@ -176,15 +195,15 @@ From figure 13 you can the layers that make up our PCB. There are a couple impor
 Let's start by defining the PCB size
 <div align="center">
 <img src="images/DefiningPCBSize.png" width="300">
-<p><i>Figure 15: Defining the PCB Size</i></p>
+<p><i>Figure 17: Defining the PCB Size</i></p>
 </div>
 
 - Press into the Edge.Cuts layer and click on the draw line icon
-- Create a square as shown in figure 16 which is 20x20mm in size
+- Create a square as shown in figure 18 which is 20x20mm in size
 
 <div align="center">
 <img src="images/CreatingSquare.png" width="500">
-<p><i>Figure 16: Creating a Square</i></p>
+<p><i>Figure 18: Creating a Square</i></p>
 </div>
 
 Now let's add the ground layer
@@ -192,14 +211,14 @@ Now let's add the ground layer
 
 <div align="center">
 <img src="images/AddFilledZone.png" width="300">
-<p><i>Figure 17: Filled Zone Icon</i></p>
+<p><i>Figure 19: Filled Zone Icon</i></p>
 </div>
 
 - Click on the top left corner of the square
 
 <div align="center">
 <img src="images/PlacingGround.png" width="500">
-<p><i>Figure 18: Click on the top left corner </i></p>
+<p><i>Figure 20: Click on the top left corner </i></p>
 </div>
 
 - A new tab should open
@@ -208,24 +227,9 @@ Now let's add the ground layer
 
 <div align="center">
 <img src="images/Ground.png" width="500">
-<p><i>Figure 19: Ground Layer </i></p>
+<p><i>Figure 21: Ground Layer </i></p>
 </div>
 
-Now let's move the components from our schematic
-- On the top toolbar click on the Update PCB from schematic icon
-
-<div align="center">
-<img src="images/UpdatePCB.png" width="300">
-<p><i>Figure 20: Update PCB from Schematic </i></p>
-</div>
-
-- A new tab should open, press the button **Update PCB**
-- Three components should appear, click anywhere on the screen to place them down 
-
-<div align="center">
-<img src="images/PCBThreeObjects.png" width="300">
-<p><i>Figure 21: PCB with three components to the side </i></p>
-</div>
 
 Let's arrange the components onto the ground plane
 
