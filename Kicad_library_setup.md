@@ -5,8 +5,8 @@
 
 
 > [!IMPORTANT]
-> - When cloning the reponsitory, in the videa the local repository name is ```rsx_standard_library2``` instead of ```rsx_standard_library```
-> ** make sure to use ```rsx_standard_library``` **
+> - When cloning the reponsitory in the video the local repository name is ```rsx_standard_library2``` instead of ```rsx_standard_library```
+> - MAKE SURE TO USE: ```rsx_standard_library``` 
 
 ------------------------------
 
