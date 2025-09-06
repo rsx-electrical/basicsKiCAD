@@ -14,15 +14,15 @@ Let's start with the basics...
 ### What is KiCad?
 It is a software for developing printed circuit boards (PCBs). If those words went over your head let's start with an analogy--designing a PCB is analogous to playing with legos. 
 
-There are three important sections in PCB that will be highlighted through builidng a lego house
+There are three important sections in PCB that will be highlighted through building a lego house
 1. Schematic: This is where you choose your components: resistor, LEDs, etc. So this is where you choose the legos to design your lego house. 
 2. PCB Layout: This is where you structure how your components will be wired together. So this is where you design how the legos will eventually fit together. 
 3. Assembly. This is where you build you PCB by soldering. So this is where you finally get to stack the legos together to build a house. 
 
-Of couse in this tutorial you won't actually get to this step 3, as KiCad only allows for steps 1 and 2. 
+Of course in this tutorial you won't actually get to this step 3, as KiCad only allows for steps 1 and 2. 
 
 ### A Simple Design
-#### Introduction to the Desgin
+#### Introduction to the design
 So now let's get onto using KiCad. Today you are tasked with creating a PCB that allows for an LED to turn on. Fun right!
 
 <div align="center">
@@ -34,7 +34,7 @@ So now let's get onto using KiCad. Today you are tasked with creating a PCB that
 If we look at the photo, you'll see the following labels D1, R1, and J1--these are footprint references. 
 - D1: LED
 - R1: Resistor
-- J1: Screw terminal. (There is also a 1 next to the screw terminal. This is a footrprint text used for distinguishing the two terminals) 
+- J1: Screw terminal. (There is also a 1 next to the screw terminal. This is a footprint text used for distinguishing the two terminals) 
 
 #### Steps to this Simple Design
 1. Make a new project: 
@@ -69,7 +69,7 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
 </div>
 
 There are three symbols you need to add: LED, resistor, and screw terminal
-- LED: find the symbol library **rsx_LED**, and doulbe click on the symbol name **LED_B**
+- LED: find the symbol library **rsx_LED**, and double click on the symbol name **LED_B**
 
 > [!TIP] 
 > To rotate a symbol Press **R**
@@ -136,7 +136,7 @@ Running the Electric Rules Checker (ERC)
 </div>
 
 
-- Ohhh no, some errors seem to have occured, if you look carefully there are no drivers to our power pins. What this means is that the ERC is freaking out because there is no way for our LED to be powered--there's no external power source connected to our PCB!
+- Ohhh no, some errors seem to have occurred, if you look carefully there are no drivers to our power pins. What this means is that the ERC is freaking out because there is no way for our LED to be powered--there's no external power source connected to our PCB!
 - To fix this error click on the power symbol icon (figure 8), and find the symbol **PWR_FLAG**
 
 <div align="center">
@@ -272,7 +272,7 @@ Let's arrange the components onto the ground plane
 
 - Press **B** on your keyboard, this allows for the ground plane to reset, if you look closely at the screw terminal you can the ground plane wrapping around the pads, but for the ground pad the ground plane extends itself such that ground is connected to ground
 
-- You might be wondering why we left the ground unnconnected, I mainly want to show you the method that usually used which is with a **via**
+- You might be wondering why we left the ground unconnected, I mainly want to show you the method that usually used which is with a **via**
 - start a new trace on the LED's ground pad and click again the empty space to the left
 
 <div align="center">
@@ -304,7 +304,7 @@ We are now done the PCB, but wait we need to verify if everything is connected c
 <p><i>Figure 27: Design Rules Checker</i></p>
 </div>
 
-- A new tab should open, click on the botton **Run DRC**
+- A new tab should open, click on the bottom **Run DRC**
 - You should see no errors, but four warnings that tell you the reference texts are too small. 
 
 <div align="center">
@@ -358,7 +358,7 @@ We are now done the PCB, but wait we need to verify if everything is connected c
 <p><i>Figure 34: DRC has no errors </i></p>
 </div>
 
-You are now down with the PCB layout. YAY!!!
+You are now done with the PCB layout. YAY!!!
 
 As a final bonus, if you want to see the 3D model of your PCB...
 - on the top toolbar click on 3D Viewer 
