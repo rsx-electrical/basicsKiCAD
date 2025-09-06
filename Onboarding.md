@@ -12,12 +12,12 @@ Let's start with the basics...
 > - If you have no idea how to do the previous 2 steps refer to: [KiCad_library_setup](https://github.com/rsx-electrical/basicsKiCAD/blob/main/Kicad_library_setup.md)
 
 ### What is KiCad?
-It is a software for developing printed circuit boards (PCBs). If those words went over your head let's start with an analogy--designing a PCB is analogous to playing with legos. 
+It is software for developing printed circuit boards (PCBs). If those words went over your head let's start with an analogy--designing a PCB is analogous to playing with legos. 
 
-There are three important sections in PCB that will be highlighted through building a lego house
+There are three important steps in PCB design that will be highlighted through building a lego house
 1. Schematic: This is where you choose your components: resistor, LEDs, etc. So this is where you choose the legos to design your lego house. 
 2. PCB Layout: This is where you structure how your components will be wired together. So this is where you design how the legos will eventually fit together. 
-3. Assembly. This is where you build you PCB by soldering. So this is where you finally get to stack the legos together to build a house. 
+3. Assembly: This is where you build your PCB by soldering. So this is where you finally get to stack the legos together to build a house. 
 
 Of course in this tutorial you won't actually get to this step 3, as KiCad only allows for steps 1 and 2. 
 
@@ -48,7 +48,7 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
 <p><i>Figure 2: The KiCad homepage</i></p>
 </div>
 
-- You should see something that looks figure 2
+- You should see something that looks like figure 2
 
 ------------------------------
 
@@ -61,7 +61,7 @@ If we look at the photo, you'll see the following labels D1, R1, and J1--these a
 </div>
 
 - Following figure 3 go to the right-hand side toolbar and click on the add symbol icon. You should see your mouse change into this icon
-- Click anywhere on your screen and new tab should up as shown in figure 4
+- Click anywhere on your screen and new tab should open as shown in figure 4
 
 <div align="center">
 <img src="images/ChooseSymbolTab.png" width="800">
@@ -186,7 +186,7 @@ From figure 15 you can see the layers that make up our PCB. There are a couple i
 <p><i>Figure 16: PCB top layer</i></p>
 </div>
 
-- If you observe figure 16 you'll see lines connecting the component together, there are called **traces**. The traces care created on the copper layers, either the top or the bottom. In this project all traces are on the top copper layer. 
+- If you observe figure 16 you'll see lines connecting the component together, these wires are called **traces**. The traces care created on the copper layers, either the top or the bottom. In this project all traces are on the top copper layer. 
 - The footprint reference values: D1, R1, J1 are all found on the silkscreen layers, either the front or the back. The silkscreen is an ink layer where text and graphics can be displayed on a PCB. 
 - Lastly, Edge.Cuts is used to define the size of your PCB. 
 - There are other layers, but for the purpose of this tutorial only these 3 kinds of layers are important. 
@@ -247,7 +247,7 @@ Let's arrange the components onto the ground plane
 <p><i>Figure 22: Components placed on the PCB </i></p>
 </div>
 
-- ensure the light blue lines do not cross over each other, follow the example in figure 22
+- ensure that the light blue lines do not cross over each other, follow the example in figure 22
 
 - Now let's add some wires that will connect the components together, these wire are called **traces**
 - on the righthand side tool bar click on the Route Tracks icon 
@@ -289,7 +289,7 @@ Let's arrange the components onto the ground plane
 </div>
 
 - now the ground pad of the LED is connect to the ground plane
-- A via can be thought of as a hole, that allows for a trace (which in on the top copper layer) to be connected to the bottom copper layer
+- A via can be thought of as a hole, that allows for a trace (which is on the top copper layer) to be connected to the bottom copper layer
 - Press **B** on
 
 
