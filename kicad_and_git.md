@@ -6,10 +6,8 @@ This guide walks you through setting up a **KiCad** project with **Git** for ver
 
 ## 1. Generate an SSH Key
 
-To securely connect to GitHub, you need to generate an SSH key and add it to your GitHub account.
-
-Follow GitHub’s official guide:  
-[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+Follow GitHub’s official guide - **Only do "Generating a New SSH Key" step**:  
+[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows#generating-a-new-ssh-key)
 
 ---
 
