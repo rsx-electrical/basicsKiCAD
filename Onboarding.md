@@ -14,6 +14,7 @@ Let's start with the basics...
 > [!NOTE]
 > - If you don't want to go through the document watch these videos
 > - [Schematic Video](https://youtu.be/7TeFG5q4Bxc)
+> - [PCB Layout Vide0](https://youtu.be/zXNPxbjSOWs)
 
 
 ### What is KiCad?
@@ -28,7 +29,7 @@ Of course in this tutorial you won't actually get to this step 3, as KiCad only 
 
 ### A Simple Design
 #### Introduction to the design
-So now let's get onto using KiCad. Today you are tasked with creating a PCB that allows for an LED to turn on. Fun right!
+So now let's get onto using KiCad. Today you are tasked with creating a PCB that allows for an LED to turn on. 
 
 <div align="center">
      <img src="images/Onboarding3dModel.png" width="800">
@@ -36,10 +37,10 @@ So now let's get onto using KiCad. Today you are tasked with creating a PCB that
 </div>
 
 
-If we look at the photo, you'll see the following labels D1, R1, and J1--these are footprint references. 
+If we look at the photo, you'll see the following labels D1, R1, and J1--these are **footprint references**. 
 - D1: LED
 - R1: Resistor
-- J1: Screw terminal. (There is also a 1 next to the screw terminal. This is a footprint text used for distinguishing the two terminals) 
+- J1: Screw terminal. (There is also a 1 next to the screw terminal. This is a **footprint text** used for distinguishing the two terminals) 
 
 #### Steps to this Simple Design
 1. Make a new project: 
