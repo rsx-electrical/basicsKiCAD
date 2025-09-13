@@ -14,7 +14,7 @@ Let's start with the basics...
 > [!NOTE]
 > - If you don't want to go through the document watch these videos
 > - [Schematic Video](https://youtu.be/7TeFG5q4Bxc)
-> - [PCB Layout Vide0](https://youtu.be/zXNPxbjSOWs)
+> - [PCB Layout Video](https://youtu.be/zXNPxbjSOWs)
 
 
 ### What is KiCad?
