@@ -46,6 +46,18 @@ Follow GitHub’s official guide - **Only do "Generating a New SSH Key" step**:
 <div align="center">
      <img src="images/kicad_and_git/addKeyConfirm.png" width="500">
 </div>
+
+> x. Open Powershell as ***Admin*** and enter:
+> ```
+> Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+> Start-Service ssh-agent
+> ```  
+>
+> xi. Open Powershell normally (not as Admin) and enter: ```c/User/YOU/.ssh/id_ALGORITHM```
+<div align="center">
+     <img src="images/kicad_and_git/run_powershell2.png" width="800">
+</div>
+
 ---
 
 ## 2. Get SSH remote URL
@@ -56,6 +68,7 @@ Copy the line that starts with ```git@github.com:rsx-electrical...```
      <img src="images/kicad_and_git/github.png" width="400">
      <p><i>Figure 1: Github website</i></p>
 </div>
+
 ---
 
 ## 3. Go to Kicad 
@@ -69,3 +82,14 @@ Copy the line that starts with ```git@github.com:rsx-electrical...```
      <img src="images/kicad_and_git/clone_proj.png" width="400">
      <p><i>Figure 2: Clone Project From Repository window in Kicad</i></p>
 </div>
+
+5. If it can't connect try: (Windows)     
+> i. Open git bash, type ```ssh -T git@github.com```. You may see:
+> ```
+> The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+> ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+> Are you sure you want to continue connecting (yes/no)?
+> ```   
+> "SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU" is github's key fingerprint, not yours, so it wouldn't match your public key from step 1.  
+> ii. type ```yes``` and enter. You should see ```Hi <github username>! You've successfully authenticated, but GitHub does not provide shell access.```
+> iii. Try to connect in Kicad again (steps 3.1 - 3.4)
