@@ -11,7 +11,7 @@
 ------------------------------
 
 Steps:
-1. Download [KiCad](https://www.kicad.org/download) onto your local computer (please download the latest please -> ver. 9.0.4)
+1. Download [KiCad](https://www.kicad.org/download) onto your local computer (please download the latest please -> ver. 10.0.0)
 2. Install KiCad 
 - a. Next -> Next -> Next -> Install
 - b. Move to next step while we wait
