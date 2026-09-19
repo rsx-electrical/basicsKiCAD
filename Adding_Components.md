@@ -32,7 +32,7 @@ Boy do I HAVE the solution for YOU!
 > This will bring you to a page where you can download symbols, footprints, and 3D models directly from the manufacturer.
 
 > [!NOTE]
-> Step 3. Once you're on this page, you should see something like the figure below. Select the download format button. Then you wanna select the download format you see in figure __. Once the correct things are selected click the download button.
+> Step 3. Once you're on this page, you should see something like the figure below. Select the download format button. Then you wanna select the download format you see in figure 3. Once the correct things are selected click the download button.
 
 <div align="center">
 <img src="images/Figure_3AC.png" width="800">
