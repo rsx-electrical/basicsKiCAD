@@ -15,7 +15,7 @@ Step 1. Find the component on Digikey
 
 <div align="center">
 <img src="images/KiCadHomepage.png" width="800">
-<p><i>Figure 2: The KiCad homepage</i></p>
+<p><i>Figure 2: The Digikey Component</i></p>
 </div>
 
 Step 2. Click the circled cad model in red
