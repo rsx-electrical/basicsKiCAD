@@ -35,7 +35,8 @@ Boy do I HAVE the solution for YOU!
 <p><i>Figure 3: component download page</i></p>
 </div>
 
-Step 4. Download the 3d model as a STEP file and the symbol/footprint using the KiCad v6+ as shown in Figure 4 below.
+> [!NOTE]
+> Step 4. Download the 3d model as a STEP file and the symbol/footprint using the KiCad v6+ as shown in Figure 4 below.
 <div align="center">
 <img src="images/Figure_4AC.png" width="800">
 <p><i>Figure 4: Download Format</i></p>
