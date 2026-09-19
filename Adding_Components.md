@@ -2,12 +2,14 @@
 IMAGINE THIS, you're designing your circuit, and you have everything planned out, but you can't find component "MCP3204T-CI/ST" in the RSX library!!!!! WHAT ARE YOU GONNA DO NOW?????
 Boy do I HAVE the solution for YOU!
 
+NOTE**** BEFORE YOU MAKE ANY CHANGES TO ANYTHING ON KICAD EVER, MAKE SURE YOU PULL. 
+NOTE**** WE WILL BE USING THE FOLLOWING COMPONENT FROM DIGIKEY FOR THIS TUTORIAL :
+https://www.digikey.ca/en/products/detail/microchip-technology/MCP3204T-CI-ST/319442 
+
 <div align="center">
 <img src="images/KiCadHomepage.png" width="800">
 <p><i>Figure 1: Stupid image</i></p>
 </div>
-
-NOTE**** BEFORE YOU MAKE ANY CHANGES TO ANYTHING ON KICAD EVER, MAKE SURE YOU PULL. 
 
 Step 1. Find the component on Digikey
 
@@ -182,4 +184,17 @@ Step 30. Step 30 would be to push. HOWEVER, the chip used in this example is ALR
 
 IF YOU HAVE ANY QUESTIONS, reach out to NIca or Alex or Angel
 
+DISCARDING ANY UNWANTED CHANGES.
 
+Maybe you decided you wanted to go through this whole tutorial and now you're like wtflip do I do with all these changes that I made!!!
+Here is how you discard those changes properly:
+
+Step 1. Go into Github Desktop
+Step 2. Select RSX standard library repository
+Step 3. Right click "changed files"
+Step 4. Discard all Changes
+
+<div align="center">
+<img src="images/KiCadHomepage.png" width="800">
+<p><i>Figure 24: Discarding changes </i></p>
+</div>
