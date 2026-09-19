@@ -323,7 +323,7 @@ We are now done the PCB, but wait we need to verify if everything is connected c
 
 
 <div align="center">
-<img src="images/ChangingFontSize.png" width="500">
+<img src="images/Figure29.png" width="500">
 <p><i>Figure 29: Changing the Text Size</i></p>
 </div>
 
