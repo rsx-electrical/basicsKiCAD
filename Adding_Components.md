@@ -1,6 +1,7 @@
 # Adding Components to KiCad
-IMAGINE THIS, you're designing your circuit, and you have everything planned out, but you can't find component "MCP3204T-CI/ST" in the RSX library!!> [!NOTE]
-> WHAT ARE YOU GONNA DO NOW?????
+IMAGINE THIS, you're designing your circuit, and you have everything planned out, but you can't find component "MCP3204T-CI/ST" in the RSX library!!
+
+WHAT ARE YOU GONNA DO NOW?????
 Boy do I HAVE the solution for YOU!
 
 > [!IMPORTANT]
