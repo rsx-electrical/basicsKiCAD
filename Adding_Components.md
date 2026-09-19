@@ -25,7 +25,7 @@ Boy do I HAVE the solution for YOU!
 
 > [!NOTE]
 > Step 2. Click the circled cad model in red
-This will bring you to a page where you can download symbols, footprints, and 3D models directly from the manufacturer.
+> This will bring you to a page where you can download symbols, footprints, and 3D models directly from the manufacturer.
 
 > [!NOTE]
 > Step 3. Once you're on this page, you should see something like the figure below. Select the download format button. Then you wanna select the download format you see in figure __. Once the correct things are selected click the download button.
@@ -44,9 +44,11 @@ Step 4. Download the 3d model as a STEP file and the symbol/footprint using the 
 > [!NOTE]
 > Step 5. Once you have the zip file downloaded, make sure you extract all the files.
 
-Step 6. Open KiCad, and click into the symbol editor as shown in figure 5
+> [!NOTE]
+> Step 6. Open KiCad, and click into the symbol editor as shown in figure 5
 
-Step 7. \\
+> [!NOTE]
+> Step 7. 😮
 
 <div align="center">
 <img src="images/Figure_5AC.png" width="800">
@@ -165,7 +167,8 @@ LINKING THE MODELS
 <p><i>Figure 19: Digikey Page</i></p>
 </div>
 
-Figure 19 shows what your screen should look like. Make sure the field types are matching. For example you actually have to put in the datasheet LINK. But for DPN and MPN its just the number etc. PLEASE double check to make sure this is done correctly. 
+> [!HINT]
+> Figure 19 shows what your screen should look like. Make sure the field types are matching. For example you actually have to put in the datasheet LINK. But for DPN and MPN its just the number etc. PLEASE double check to make sure this is done correctly. 
 <div align="center">
 <img src="images/Figure_20AC.png" width="800">
 <p><i>Figure 20: Double check field types</i></p>
