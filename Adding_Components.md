@@ -123,15 +123,15 @@ Boy do I HAVE the solution for YOU!
 </div>
 
 > [!NOTE]
-> Step 16. You will be brought to a page that looks like the image in figure 13. Click Ctrl S to save pls PLEASE PLEAASEEEE. And then follow what the image says.
+> Step 16. You will be brought to a page that looks like the image in figure 13. Click Ctrl S to save pls PLEASE PLEAASEEEE. And then follow the followings steps.
+> 1. Search RSX SENSORS
+> 2. CLick RSX_SENSORS
+> 3. CLICK OK. 
+
 <div align="center">
 <img src="images/Figure_14AC.png" width="800">
 <p><i>Figure 14: COMPELTE IMPORT</i></p>
 </div>
-
-1. Search RSX SENSORS
-2. CLick RSX_SENSORS
-3. CLICK OK. 
 
 > [!NOTE]
 > Step 17. Once you click ok, you should be able to see your new component footprint in rsx_sensors as shown in figure 14. 
@@ -143,7 +143,14 @@ Boy do I HAVE the solution for YOU!
 ### 3D - MODEL!!!!
 
 > [!NOTE]
-> Step 18. Go to you file directory, and find where you put RSX standard library -> RSX 3d -> RSX_sensors.3dshapes. If you followed Angel's fantastic tutorial on how to add the library, you should have put it in somewhere like this : <my_directory>/rsx_standard_library/rsx_3d. Otherwise, we can't really help you, just find it bro you got this we believe in YOU!!!
+> Step 18. Go to you file directory, and find where you put RSX standard library -> RSX 3d -> RSX_sensors.3dshapes. If you followed Angel's fantastic tutorial on how to add the library, you should have put it in somewhere like this : 
+>
+> <div align=center>{my_directory}/rsx_standard_library/rsx_3d</div>
+> <br>
+> <br>
+> <div align=left> Otherwise, we can't really help you, just find it bro you got this we believe in YOU!!!</div>
+
+
 
 > [!NOTE]
 > Step 19. Once you are in RSX_sensors.3Dshapes look at the figure below and make sure you actually see your component there. If not, please review the steps above and make sure you SAVED when directed to do so. (Just spam the ctrl S ONG)
