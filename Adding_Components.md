@@ -36,9 +36,9 @@ Step 4. Choose the download format as selected in Figure 4 below.
 
 !!!!! **Step 5. Once you have the zip file downloaded, make sure you extract all the files.** !!!!!
 
-Step 6. Open KiCad, and click into the symbol editor as shown in figure 5
+Step 6. Open KiCad, and click into the symbol editor as shown in figure 4
 
-Step 7. Choose the download format as selected in Figure 4 below.
+Step 7. Download the 3d model as a STEP file and the symbol/footprint using the KiCad v6+ as shown in Figure 5 below.
 
 <div align="center">
 <img src="images/KiCadHomepage.png" width="800">
