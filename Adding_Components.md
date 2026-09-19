@@ -147,7 +147,6 @@ Boy do I HAVE the solution for YOU!
 >
 > <div align=center>{my_directory}/rsx_standard_library/rsx_3d</div>
 > <br>
-> <br>
 > <div align=left> Otherwise, we can't really help you, just find it bro you got this we believe in YOU!!!</div>
 
 
@@ -159,7 +158,7 @@ Boy do I HAVE the solution for YOU!
 <p><i>Figure 16: 3DSHAPES</i></p>
 </div>
 
-LINKING THE MODELS
+### LINKING THE MODELS
 > [!NOTE]
 > Step 20. Go to your schematic as show in figure 16. (Review step __ on how to open your schematic). Click on any white open space and then press E to open the symbol properties. There should be reference, value, footprint, datasheet, and description.
 <div align="center">
