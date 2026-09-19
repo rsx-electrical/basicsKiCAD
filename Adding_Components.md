@@ -168,7 +168,7 @@ LINKING THE MODELS
 <p><i>Figure 19: Digikey Page</i></p>
 </div>
 
-> [!HINT]
+> [!TIP]
 > Figure 19 shows what your screen should look like. Make sure the field types are matching. For example you actually have to put in the datasheet LINK. But for DPN and MPN its just the number etc. PLEASE double check to make sure this is done correctly. 
 <div align="center">
 <img src="images/Figure_20AC.png" width="800">
