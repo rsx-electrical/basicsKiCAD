@@ -39,15 +39,9 @@ Step 4. Download the 3d model as a STEP file and the symbol/footprint using the 
 
 !!! Step 5. Once you have the zip file downloaded, make sure you extract all the files.
 
-<<<<<<< Updated upstream
 Step 6. Open KiCad, and click into the symbol editor as shown in figure 5
 
 Step 7. \\
-=======
-!!! Step 6. Open KiCad, and click into the symbol editor as shown in figure 4
-
-!!! Step 7. Download the 3d model as a STEP file and the symbol/footprint using the KiCad v6+ as shown in Figure 5 below.
->>>>>>> Stashed changes
 
 <div align="center">
 <img src="images/Figure_5AC.png" width="800">
