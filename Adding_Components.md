@@ -28,7 +28,7 @@ Step 3. Once you're on this page, you should see something like the figure below
 <p><i>Figure 3: component download page</i></p>
 </div>
 
-Step 4. Choose the download format as selected in Figure 4 below.
+Step 4. Download the 3d model as a STEP file and the symbol/footprint using the KiCad v6+ as shown in Figure 4 below.
 <div align="center">
 <img src="images/KiCadHomepage.png" width="800">
 <p><i>Figure 4: Download Format</i></p>
@@ -36,9 +36,9 @@ Step 4. Choose the download format as selected in Figure 4 below.
 
 !!!!! **Step 5. Once you have the zip file downloaded, make sure you extract all the files.** !!!!!
 
-Step 6. Open KiCad, and click into the symbol editor as shown in figure 4
+Step 6. Open KiCad, and click into the symbol editor as shown in figure 5
 
-Step 7. Download the 3d model as a STEP file and the symbol/footprint using the KiCad v6+ as shown in Figure 5 below.
+Step 7. \\
 
 <div align="center">
 <img src="images/KiCadHomepage.png" width="800">
