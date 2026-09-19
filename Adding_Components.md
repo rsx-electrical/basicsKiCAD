@@ -10,7 +10,7 @@ Boy do I HAVE the solution for YOU!
 > - [12-bit ADC](https://www.digikey.ca/en/products/detail/microchip-technology/MCP3204T-CI-ST/319442)
 
 <div align="center">
-<img src="images/KiCadHomepage.png" width="800">
+<img src="images/Figure_1AC.png" width="800">
 <p><i>Figure 1: Stupid image</i></p>
 </div>
 
